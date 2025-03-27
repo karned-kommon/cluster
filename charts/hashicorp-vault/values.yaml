@@ -1,0 +1,12 @@
+server:
+  dataStorage:
+    enabled: true
+    storageClass: "csi-cinder-high-speed"  
+    size: 10Gi
+  standalone:
+    enabled: true
+  logLevel: "info"
+  ha:
+    enabled: false  
+ui:
+  enabled: true
